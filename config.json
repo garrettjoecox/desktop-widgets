@@ -1,0 +1,30 @@
+[
+  {
+    "widget": "./x-network",
+    "position": ":host { right: 2rem; top: 2.5rem; }",
+    "config": {
+      "refresh": "10s"
+    }
+  },
+  {
+    "widget": "./x-cpu",
+    "position": ":host { right: 2rem; top: 6rem; }",
+    "config": {
+      "refresh": "2s"
+    }
+  },
+  {
+    "widget": "./x-battery",
+    "position": ":host { right: 2rem; top: 8rem; }",
+    "config": {
+      "refresh": "2m"
+    }
+  },
+  {
+    "widget": "./x-memory",
+    "position": ":host { right: 2rem; top: 10rem; }",
+    "config": {
+      "refresh": "5s"
+    }
+  }
+]

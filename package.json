@@ -1,0 +1,25 @@
+{
+  "name": "desktop-widgets",
+  "version": "0.0.1",
+  "description": "TODO: Find a better name :P",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garrettjoecox/desktop-widgets.git"
+  },
+  "author": "Garrett Cox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garrettjoecox/desktop-widgets/issues"
+  },
+  "homepage": "https://github.com/garrettjoecox/desktop-widgets#readme",
+  "dependencies": {
+    "electron-prebuilt": "^0.37.2",
+    "parse-duration": "^0.1.1",
+    "pfy": "^1.0.1",
+    "request": "^2.69.0"
+  }
+}
